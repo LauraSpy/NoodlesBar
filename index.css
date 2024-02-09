@@ -15,7 +15,7 @@ header{
     width: 100%;
     text-transform: uppercase;
     padding-left: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .logo {
@@ -90,6 +90,10 @@ header{
 }
 
 @media screen and (max-width: 750px) {
+    header {
+        margin-bottom: 0;
+    }
+    
     .logo-txt {
         display: none;
     }
